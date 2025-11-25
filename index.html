@@ -4,18 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>My Portfolio Site</title>
- <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-  <link rel="stylesheet" href="styles.css">
- 
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+  body {
+  font-family: "Mitr", sans-serif;
+  }
+  </style>
 </head>
-<body>
+
+
+<body> 
   <header>
     <a href="index.html"><img src="/assets/images/My-website-logo.png" alt="My Logo" width="32" height="32"></a>
     <div class="site-branding">
       
     </div>
     <nav aria-label="Primary Navigation">
-      <ul>
+      <ul class="mitr-light">
         <li><a href="index.html">Home</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="/assets/pdfs/Natalie-Clifton-Resume-(6).pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
@@ -26,15 +33,15 @@
 
   </header>
 
-<main>
-    <img src="/assets/images/website-background-illustration.png" alt="bio background" width="1280" height="700">
+  <figure>
+    <img src="/assets/images/website-background-illustration.png" alt="bio background" class="container">
+  </figure>
+
     <img src="/assets/images/my-photo-for-website.jpg" alt="my bio image" width="200" height="267">
     <h1>Natalie Clifton</h1>
     <p>My name is Natalie, and I am a graphic designer based in RI! 
       Feel free to take a look at my works, learn more about me, or even just explore my website!</p>
-</main>
 
-<figure>
     <h2>Some of My Works</h2>
     
     <!--scroll container-->
@@ -45,7 +52,6 @@
       <img src="/assets/images/pins-drawing.jpg" alt="Charcoal Drawing of Pins" width="600" height="220">
     </div>
     
-</figure>
 
   <footer>
     <p>&copy; 2025 Natalie Clifton - <a href="contact.html">Contact</a></p>
